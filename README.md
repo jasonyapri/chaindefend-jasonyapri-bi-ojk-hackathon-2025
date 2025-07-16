@@ -1,30 +1,32 @@
-# Chaindefend frontend project
+# ChainDefend | Proposal BI-OJK Hackathon 2025
+### End-to-end smart contract security with AI-powered audits and continuous crowdsourced defense
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**Angggota Tim:** Jason Yapri & Peter Mulyadi
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/chaindetect-1323s-projects/v0-chaindefend-frontend-project)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/QQZN88TntTj)
+![Landing Page](https://pelitabangsa.co.id/wp-content/uploads/2025/07/1.-Landing-Page.png)
 
-## Overview
+Likuiditas pada ekosistem Decentralized Finance (DeFi) terus tumbuh pesat mencapai `USD 115 miliar` _(4 Juli 2025)_, mencerminkan tren global menuju keuangan terdesentralisasi. Di sisi lain, Indonesia belum memiliki kerangka keamanan dan mitigasi risiko yang holistik untuk menjamin keandalan smart contract platform terdesentralisasi, sehingga potensi eksploitasi besar-besaran dapat menimbulkan kerugian finansial signifikan dan merusak kepercayaan serta stabilitas ekonomi digital nasional.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+ChainDefend hadir sebagai solusi end-to-end smart contract security dengan dua pilar utama:
 
-## Deployment
+![Solutions](https://pelitabangsa.co.id/wp-content/uploads/2025/07/2.-Solutions.png)
 
-Your project is live at:
+## ChainDefend Audit
 
-**[https://vercel.com/chaindetect-1323s-projects/v0-chaindefend-frontend-project](https://vercel.com/chaindetect-1323s-projects/v0-chaindefend-frontend-project)**
+Layanan berjenjang mulai dari Starter AI Audit gratis, Pro AI Audit berbayar, hingga Expert Human Audit mendalam untuk deteksi dan perbaikan kerentanan sejak fase development.
 
-## Build your app
+![Choose Service](https://pelitabangsa.co.id/wp-content/uploads/2025/07/3.-Choose-Audit-Service.png)
 
-Continue building your app on:
+![Scan](https://pelitabangsa.co.id/wp-content/uploads/2025/07/4.-Scan-In-Progress.png)
 
-**[https://v0.dev/chat/projects/QQZN88TntTj](https://v0.dev/chat/projects/QQZN88TntTj)**
+![View Report](https://pelitabangsa.co.id/wp-content/uploads/2025/07/5.-View-Report.png)
 
-## How It Works
+## ChainDefend Bounty
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Platform bug bounty yang memberdayakan komunitas white hat untuk secara keberlanjutan untuk mengidentifikasi dan membantu menutup celah keamanan pasca deploy.
+
+![Bounty](https://pelitabangsa.co.id/wp-content/uploads/2025/07/6.-Bounty.png)
+
+## Tujuan Proyek
+
+ChainDefend menghadirkan kerangka keamanan terpadu untuk ekosistem Decentralized Finance Indonesia dengan menggabungkan audit smart contract (AI & Human Expert) setelah development dan pemantauan crowdsourced defense pasca deploy. Solusi ini memastikan deteksi dini kerentanan, perbaikan cepat, dan perlindungan berkelanjutan untuk menjaga kepercayaan serta stabilitas ekonomi digital nasional.
