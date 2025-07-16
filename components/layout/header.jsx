@@ -10,7 +10,7 @@ export default function Header() {
         <div className="relative z-10">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-primary" />
+              <Shield className="h-8 w-8 text-secondary" />
               <span className="text-2xl font-bold text-white">ChainDefend</span>
             </Link>
 

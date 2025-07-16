@@ -4,17 +4,17 @@ import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import Header from "@/components/layout/header"
 import Footer from "@/components/layout/footer"
-import { Search, Filter, Plus, DollarSign, Clock, Users } from "lucide-react"
+import { Search, Filter, Plus, TicketIcon, Clock, Users } from "lucide-react"
 
 export default function BountyMarketplace() {
   // Mock data - replace with real API calls
   const bountyPrograms = [
     {
       id: 1,
-      name: "UniSwap V4 Protocol",
+      name: "CashSwap V4 Protocol",
       description: "Decentralized exchange protocol with concentrated liquidity",
-      rewardPool: "$50,000",
-      maxReward: "$10,000",
+      rewardPool: "IDRX 1.2B",
+      maxReward: "IDRX 240M",
       submissions: 23,
       timeLeft: "45 days",
       status: "active",
@@ -23,10 +23,10 @@ export default function BountyMarketplace() {
     },
     {
       id: 2,
-      name: "Compound Governance",
+      name: "Pelita Governance",
       description: "Decentralized governance system for lending protocol",
-      rewardPool: "$75,000",
-      maxReward: "$15,000",
+      rewardPool: "IDRX 1.8B",
+      maxReward: "IDRX 360M",
       submissions: 12,
       timeLeft: "30 days",
       status: "active",
@@ -35,10 +35,10 @@ export default function BountyMarketplace() {
     },
     {
       id: 3,
-      name: "Aave Flash Loans",
+      name: "DingDong Loans",
       description: "Flash loan mechanism for instant liquidity",
-      rewardPool: "$100,000",
-      maxReward: "$25,000",
+      rewardPool: "IDRX 2.4B",
+      maxReward: "IDRX 600M",
       submissions: 45,
       timeLeft: "60 days",
       status: "active",
@@ -47,10 +47,10 @@ export default function BountyMarketplace() {
     },
     {
       id: 4,
-      name: "Chainlink Oracles",
+      name: "Garuda Oracles",
       description: "Decentralized oracle network for price feeds",
-      rewardPool: "$200,000",
-      maxReward: "$50,000",
+      rewardPool: "IDRX 4.8B",
+      maxReward: "IDRX 1.2B",
       submissions: 67,
       timeLeft: "90 days",
       status: "active",
@@ -59,10 +59,10 @@ export default function BountyMarketplace() {
     },
     {
       id: 5,
-      name: "OpenSea NFT Marketplace",
+      name: "Reksa Dana Kripto",
       description: "NFT trading platform with advanced features",
-      rewardPool: "$80,000",
-      maxReward: "$20,000",
+      rewardPool: "IDRX 1.9B",
+      maxReward: "IDRX 480M",
       submissions: 34,
       timeLeft: "21 days",
       status: "active",
@@ -71,10 +71,10 @@ export default function BountyMarketplace() {
     },
     {
       id: 6,
-      name: "Polygon Bridge",
+      name: "Pelita Bridge",
       description: "Cross-chain bridge for asset transfers",
-      rewardPool: "$150,000",
-      maxReward: "$30,000",
+      rewardPool: "IDRX 3.6B",
+      maxReward: "IDRX 720M",
       submissions: 28,
       timeLeft: "75 days",
       status: "active",
@@ -97,7 +97,7 @@ export default function BountyMarketplace() {
               <h1 className="text-3xl font-bold text-white mb-2">Bounty Marketplace</h1>
               <p className="text-gray-300">Discover and participate in bug bounty programs</p>
             </div>
-            <Button className="bg-primary hover:bg-primary/90 text-white">
+            <Button className="bg-secondary hover:bg-secondary/90 text-white">
               <Plus className="mr-2 h-4 w-4" />
               Create Bounty
             </Button>
@@ -167,7 +167,7 @@ export default function BountyMarketplace() {
                   <div className="space-y-4">
                     <div className="flex justify-between items-center">
                       <div className="flex items-center space-x-2">
-                        <DollarSign className="h-4 w-4 text-secondary" />
+                        <TicketIcon className="h-4 w-4 text-secondary" />
                         <span className="text-white font-semibold">{program.rewardPool}</span>
                       </div>
                       <span className="text-gray-300 text-sm">Total Pool</span>
@@ -175,7 +175,7 @@ export default function BountyMarketplace() {
 
                     <div className="flex justify-between items-center">
                       <div className="flex items-center space-x-2">
-                        <DollarSign className="h-4 w-4 text-primary" />
+                        <TicketIcon className="h-4 w-4 text-primary" />
                         <span className="text-white font-semibold">{program.maxReward}</span>
                       </div>
                       <span className="text-gray-300 text-sm">Max Reward</span>

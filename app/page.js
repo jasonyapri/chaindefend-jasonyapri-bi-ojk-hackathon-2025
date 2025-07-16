@@ -27,8 +27,7 @@ export default function LandingPage() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-              End-to-end smart contract security platform combining AI-powered audits with crowdsourced bug bounties for
-              comprehensive protection.
+              End-to-end smart contract security with AI-powered audits and continuous crowdsourced defense
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link href="/audit">
@@ -46,7 +45,7 @@ export default function LandingPage() {
                   variant="outline"
                   className="border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-12 py-6 text-xl font-semibold rounded-xl bg-transparent"
                 >
-                  Launch Bounty
+                  Explore Bounties
                   <Shield className="ml-3 h-6 w-6" />
                 </Button>
               </Link>
@@ -100,7 +99,7 @@ export default function LandingPage() {
                     </div>
                     <div>
                       <span className="font-semibold text-white">Pro AI Audit</span>
-                      <p className="text-sm text-gray-400">Advanced analysis with custom rules</p>
+                      <p className="text-sm text-gray-400">More in-depth advanced analysis</p>
                     </div>
                   </div>
                   <div className="flex items-center text-gray-300">
@@ -175,7 +174,7 @@ export default function LandingPage() {
                     variant="outline"
                     className="border-2 border-secondary text-secondary hover:bg-secondary hover:text-white w-full py-4 text-lg font-semibold rounded-xl bg-transparent"
                   >
-                    Launch Bounty Program
+                    Explore Bounty Programs
                   </Button>
                 </Link>
               </CardContent>
@@ -243,7 +242,7 @@ export default function LandingPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-[#0a0a0b] px-12 py-6 text-xl font-semibold rounded-xl bg-transparent"
+                className="border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-12 py-6 text-xl font-semibold rounded-xl bg-transparent"
               >
                 Explore Bounties
               </Button>

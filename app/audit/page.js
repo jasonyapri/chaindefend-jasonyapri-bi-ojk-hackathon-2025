@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import Header from "@/components/layout/header"
 import Footer from "@/components/layout/footer"
 import { Plus, AlertTriangle, CheckCircle, Clock, TrendingUp } from "lucide-react"
+import Link from "next/link"
 
 export default function AuditDashboard() {
   // Mock data - replace with real API calls
@@ -33,10 +34,12 @@ export default function AuditDashboard() {
               <h1 className="text-3xl font-bold text-white mb-2">Audit Dashboard</h1>
               <p className="text-gray-300">Monitor your smart contract security audits</p>
             </div>
-            <Button className="bg-primary hover:bg-primary/90 text-white">
-              <Plus className="mr-2 h-4 w-4" />
-              New Audit
-            </Button>
+            <Link href="/audit/new">
+              <Button className="bg-primary hover:bg-primary/90 text-white">
+                <Plus className="mr-2 h-4 w-4" />
+                New Audit
+              </Button>
+            </Link>
           </div>
 
           {/* Stats Cards */}

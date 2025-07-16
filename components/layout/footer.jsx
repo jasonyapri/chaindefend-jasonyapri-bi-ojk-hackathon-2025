@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Shield className="h-8 w-8 text-primary" />
+              <Shield className="h-8 w-8 text-secondary" />
               <span className="text-2xl font-bold text-white">ChainDefend</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4">Product</h3>
+            <h3 className="text-white font-semibold mb-4">Solutions</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/audit" className="text-gray-400 hover:text-primary transition-colors">

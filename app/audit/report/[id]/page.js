@@ -94,13 +94,13 @@ export default function AuditReportDetail({ params }) {
   const getSeverityIcon = (severity) => {
     switch (severity) {
       case "high":
-        return <AlertTriangle className="h-4 w-4" />
+        return <AlertTriangle className="h-4 w-4 text-white" />
       case "medium":
-        return <AlertTriangle className="h-4 w-4" />
+        return <AlertTriangle className="h-4 w-4 text-white" />
       case "low":
-        return <Info className="h-4 w-4" />
+        return <Info className="h-4 w-4 text-white" />
       default:
-        return <Info className="h-4 w-4" />
+        return <Info className="h-4 w-4 text-white" />
     }
   }
 
@@ -108,7 +108,67 @@ export default function AuditReportDetail({ params }) {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <div className="flex-1 p-6">
+      <div className="flex-1 p-6 my-8">
+        {/* Progress Steps */}
+        <div className="mb-12">
+          <div className="container mx-auto max-w-4xl">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-white font-semibold">
+                  ✓
+                </div>
+                <div className="ml-3">
+                  <p className="text-secondary font-semibold">Choose Service</p>
+                  <p className="text-gray-400 text-sm">Select tierss</p>
+                </div>
+              </div>
+              <div className="flex-1 h-px bg-secondary mx-4"></div>
+
+              <div className="flex items-center">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-white font-semibold">
+                  ✓
+                </div>
+                <div className="ml-3">
+                  <p className="text-secondary font-semibold">Connect</p>
+                  <p className="text-gray-400 text-sm">Link repository</p>
+                </div>
+              </div>
+              <div className="flex-1 h-px bg-secondary mx-4"></div>
+
+              <div className="flex items-center">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-white font-semibold">
+                  ✓
+                </div>
+                <div className="ml-3">
+                  <p className="text-secondary font-semibold">Confirmation</p>
+                  <p className="text-gray-400 text-sm">Review details</p>
+                </div>
+              </div>
+              <div className="flex-1 h-px bg-secondary mx-4"></div>
+
+              <div className="flex items-center">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-white font-semibold">
+                  ✓
+                </div>
+                <div className="ml-3">
+                  <p className="text-secondary font-semibold">Scan</p>
+                  <p className="text-gray-400 text-sm">Analysis in progress</p>
+                </div>
+              </div>
+              <div className="flex-1 h-px bg-secondary mx-4"></div>
+
+              <div className="flex items-center">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-semibold">
+                  5
+                </div>
+                <div className="ml-3">
+                  <p className="text-white font-semibold">View Report</p>
+                  <p className="text-gray-400 text-sm">Results ready</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="container mx-auto max-w-6xl">
           {/* Report Header */}
           <div className="mb-8">
