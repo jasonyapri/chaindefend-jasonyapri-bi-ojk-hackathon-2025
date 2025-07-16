@@ -1,7 +1,7 @@
 # ChainDefend | Proposal BI-OJK Hackathon 2025
 ### End-to-end smart contract security with AI-powered audits and continuous crowdsourced defense
 
-**Angggota Tim:** Jason Yapri & Peter Mulyadi
+**Angggota Tim:** Jason Yapri ([LinkedIn](https://www.linkedin.com/in/jasonyapri/)) & Peter Mulyadi ([LinkedIn](https://www.linkedin.com/in/peter-mulyadi/))
 
 ![Landing Page](https://pelitabangsa.co.id/wp-content/uploads/2025/07/1.-Landing-Page.png)
 
