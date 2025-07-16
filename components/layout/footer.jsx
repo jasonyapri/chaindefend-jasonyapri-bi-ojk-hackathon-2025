@@ -15,9 +15,9 @@ export default function Footer() {
               End-to-end smart contract security platform with AI-powered audits and crowdsourced bug bounties.
             </p>
             <div className="flex space-x-4">
-              <Github className="h-6 w-6 text-gray-400 hover:text-primary cursor-pointer transition-colors" />
-              <Twitter className="h-6 w-6 text-gray-400 hover:text-primary cursor-pointer transition-colors" />
-              <Linkedin className="h-6 w-6 text-gray-400 hover:text-primary cursor-pointer transition-colors" />
+              <Link target="_blank" href="https://github.com/jasonyapri/chaindefend-jasonyapri-bi-ojk-hackathon-2025"><Github className="h-6 w-6 text-gray-400 hover:text-primary cursor-pointer transition-colors" /></Link>
+              {/*<Twitter className="h-6 w-6 text-gray-400 hover:text-primary cursor-pointer transition-colors" /></Link>*/}
+              <Link target="_blank" href="https://www.linkedin.com/in/jasonyapri/"><Linkedin className="h-6 w-6 text-gray-400 hover:text-primary cursor-pointer transition-colors" /></Link>
             </div>
           </div>
 
