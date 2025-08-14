@@ -19,7 +19,7 @@ export default function BountyMarketplace() {
       timeLeft: "45 days",
       status: "active",
       category: "DeFi",
-      logo: "/placeholder.svg?height=60&width=60",
+      logo: "/img/cashswap.png?height=60&width=60",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ export default function BountyMarketplace() {
       timeLeft: "30 days",
       status: "active",
       category: "Governance",
-      logo: "/placeholder.svg?height=60&width=60",
+      logo: "/img/pelita.png?height=60&width=60",
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ export default function BountyMarketplace() {
       timeLeft: "60 days",
       status: "active",
       category: "DeFi",
-      logo: "/placeholder.svg?height=60&width=60",
+      logo: "/img/dingdong.png?height=60&width=60",
     },
     {
       id: 4,
@@ -55,7 +55,7 @@ export default function BountyMarketplace() {
       timeLeft: "90 days",
       status: "active",
       category: "Oracle",
-      logo: "/placeholder.svg?height=60&width=60",
+      logo: "/img/garuda.jpg?height=60&width=60",
     },
     {
       id: 5,
@@ -67,7 +67,7 @@ export default function BountyMarketplace() {
       timeLeft: "21 days",
       status: "active",
       category: "NFT",
-      logo: "/placeholder.svg?height=60&width=60",
+      logo: "/img/reksadana.png?height=60&width=60",
     },
     {
       id: 6,
@@ -79,7 +79,7 @@ export default function BountyMarketplace() {
       timeLeft: "75 days",
       status: "active",
       category: "Bridge",
-      logo: "/placeholder.svg?height=60&width=60",
+      logo: "/img/pelita.png?height=60&width=60",
     },
   ]
 
