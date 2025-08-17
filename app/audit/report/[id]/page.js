@@ -13,7 +13,7 @@ export default function AuditReportDetail({ params }) {
     scanDate: "2024-01-15",
     tier: "Pro AI Audit",
     status: "completed",
-    overallScore: 78,
+    overallScore: 35,
     vulnerabilities: [
       {
         id: 1,
@@ -35,21 +35,21 @@ export default function AuditReportDetail({ params }) {
         recommendation: "Use the checks-effects-interactions pattern. Update state before external calls.",
         impact: "Attackers can drain contract funds through recursive calls.",
       },
+//       {
+//         id: 2,
+//         title: "Integer Overflow in calculateReward()",
+//         severity: "medium",
+//         description: "Potential integer overflow in reward calculation without SafeMath.",
+//         file: "contracts/RewardCalculator.sol",
+//         line: 67,
+//         code: `function calculateReward(uint256 stake, uint256 multiplier) public pure returns (uint256) {
+//     return stake * multiplier; // Potential overflow
+// }`,
+//         recommendation: "Use SafeMath library or Solidity 0.8+ built-in overflow protection.",
+//         impact: "Incorrect reward calculations leading to economic exploits.",
+//       },
       {
         id: 2,
-        title: "Integer Overflow in calculateReward()",
-        severity: "medium",
-        description: "Potential integer overflow in reward calculation without SafeMath.",
-        file: "contracts/RewardCalculator.sol",
-        line: 67,
-        code: `function calculateReward(uint256 stake, uint256 multiplier) public pure returns (uint256) {
-    return stake * multiplier; // Potential overflow
-}`,
-        recommendation: "Use SafeMath library or Solidity 0.8+ built-in overflow protection.",
-        impact: "Incorrect reward calculations leading to economic exploits.",
-      },
-      {
-        id: 3,
         title: "Missing Access Control on setFee()",
         severity: "medium",
         description: "The setFee function lacks proper access control modifiers.",
@@ -62,7 +62,7 @@ export default function AuditReportDetail({ params }) {
         impact: "Unauthorized users can manipulate fee structure.",
       },
       {
-        id: 4,
+        id: 3,
         title: "Unused Variable in processTransaction()",
         severity: "low",
         description: 'Variable "timestamp" is declared but never used.',

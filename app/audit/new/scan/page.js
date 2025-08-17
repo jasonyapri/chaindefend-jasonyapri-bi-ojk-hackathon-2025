@@ -265,15 +265,15 @@ export default function ScanPage() {
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="bg-gray-800 rounded-lg p-4 text-center">
-                      <div className="text-2xl font-bold text-quaternary mb-1">3</div>
+                      <div className="text-2xl font-bold text-quaternary mb-1">1</div>
                       <div className="text-gray-300 text-sm">High Severity</div>
                     </div>
                     <div className="bg-gray-800 rounded-lg p-4 text-center">
-                      <div className="text-2xl font-bold text-primary mb-1">7</div>
+                      <div className="text-2xl font-bold text-primary mb-1">1</div>
                       <div className="text-gray-300 text-sm">Medium Severity</div>
                     </div>
                     <div className="bg-gray-800 rounded-lg p-4 text-center">
-                      <div className="text-2xl font-bold text-secondary mb-1">12</div>
+                      <div className="text-2xl font-bold text-secondary mb-1">1</div>
                       <div className="text-gray-300 text-sm">Low Severity</div>
                     </div>
                   </div>
